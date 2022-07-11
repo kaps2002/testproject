@@ -1,0 +1,26 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format":"prettier --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaps2002/testproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaps2002/testproject/issues"
+  },
+  "homepage": "https://github.com/kaps2002/testproject#readme",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
