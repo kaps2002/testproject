@@ -16,3 +16,15 @@ const car ={
 const somarr=[1,2,3,4,5]
 var [secondel]=somarr;
 console.log(secondel);
+
+const dosome = new Promise((resolve,reject) => {
+    // resolve("hello");
+    reject(new Error("promise has failed"));
+});
+dosome.then((resolvedvalue)=>{
+    console.log(resolvedvalue);
+    return 5;
+    })
+    .catch((err)=>{
+    console.log('error occured:',err.message)
+});
